@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBB61411AA11610FF67DD1AE /* Pods_container_segue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3043A2D2DF41DFAC89F3851C /* Pods_container_segue.framework */; };
+		EBE1C87B1CA4B71F000A9B15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE1C87A1CA4B71F000A9B15 /* AppDelegate.swift */; };
+		EBE1C87D1CA4B71F000A9B15 /* CustomTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE1C87C1CA4B71F000A9B15 /* CustomTransitionViewController.swift */; };
+		EBE1C8801CA4B71F000A9B15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE1C87E1CA4B71F000A9B15 /* Main.storyboard */; };
+		EBE1C8821CA4B71F000A9B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE1C8811CA4B71F000A9B15 /* Assets.xcassets */; };
+		EBE1C8851CA4B71F000A9B15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE1C8831CA4B71F000A9B15 /* LaunchScreen.storyboard */; };
+		EBE1C88F1CA4E938000A9B15 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE1C88E1CA4E938000A9B15 /* ModalViewController.swift */; };
+		EBE1C89A1CA4EC0B000A9B15 /* PresentingAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE1C8991CA4EC0B000A9B15 /* PresentingAnimator.swift */; };
+		EBE1C89C1CA555CF000A9B15 /* DismissingAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE1C89B1CA555CF000A9B15 /* DismissingAnimator.swift */; };
+		EBE1C89E1CA57650000A9B15 /* UseXibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE1C89D1CA57650000A9B15 /* UseXibViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		021FF31381A4D9EAF56D7B4C /* Pods-container-segue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-container-segue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-container-segue/Pods-container-segue.debug.xcconfig"; sourceTree = "<group>"; };
+		3043A2D2DF41DFAC89F3851C /* Pods_container_segue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_container_segue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E36F323B30AEFF4B3C7889 /* Pods-container-segue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-container-segue.release.xcconfig"; path = "Pods/Target Support Files/Pods-container-segue/Pods-container-segue.release.xcconfig"; sourceTree = "<group>"; };
+		EBE1C8771CA4B71F000A9B15 /* container-segue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "container-segue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE1C87A1CA4B71F000A9B15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBE1C87C1CA4B71F000A9B15 /* CustomTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionViewController.swift; sourceTree = "<group>"; };
+		EBE1C87F1CA4B71F000A9B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBE1C8811CA4B71F000A9B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBE1C8841CA4B71F000A9B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBE1C8861CA4B71F000A9B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE1C88E1CA4E938000A9B15 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		EBE1C8901CA4EA63000A9B15 /* container-segue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "container-segue-Bridging-Header.h"; sourceTree = "<group>"; };
+		EBE1C8991CA4EC0B000A9B15 /* PresentingAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentingAnimator.swift; sourceTree = "<group>"; };
+		EBE1C89B1CA555CF000A9B15 /* DismissingAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissingAnimator.swift; sourceTree = "<group>"; };
+		EBE1C89D1CA57650000A9B15 /* UseXibViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseXibViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBE1C8741CA4B71F000A9B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB61411AA11610FF67DD1AE /* Pods_container_segue.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA3EA0C5C7B344948D4F47FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3043A2D2DF41DFAC89F3851C /* Pods_container_segue.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBE1C86E1CA4B71F000A9B15 = {
+			isa = PBXGroup;
+			children = (
+				EBE1C8791CA4B71F000A9B15 /* container-segue */,
+				EBE1C8781CA4B71F000A9B15 /* Products */,
+				F65C5ABCE6E89D9094360ABE /* Pods */,
+				EA3EA0C5C7B344948D4F47FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBE1C8781CA4B71F000A9B15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBE1C8771CA4B71F000A9B15 /* container-segue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBE1C8791CA4B71F000A9B15 /* container-segue */ = {
+			isa = PBXGroup;
+			children = (
+				EBE1C87A1CA4B71F000A9B15 /* AppDelegate.swift */,
+				EBE1C8991CA4EC0B000A9B15 /* PresentingAnimator.swift */,
+				EBE1C89B1CA555CF000A9B15 /* DismissingAnimator.swift */,
+				EBE1C87C1CA4B71F000A9B15 /* CustomTransitionViewController.swift */,
+				EBE1C88E1CA4E938000A9B15 /* ModalViewController.swift */,
+				EBE1C89D1CA57650000A9B15 /* UseXibViewController.swift */,
+				EBE1C87E1CA4B71F000A9B15 /* Main.storyboard */,
+				EBE1C8811CA4B71F000A9B15 /* Assets.xcassets */,
+				EBE1C8831CA4B71F000A9B15 /* LaunchScreen.storyboard */,
+				EBE1C8861CA4B71F000A9B15 /* Info.plist */,
+				EBE1C8901CA4EA63000A9B15 /* container-segue-Bridging-Header.h */,
+			);
+			path = "container-segue";
+			sourceTree = "<group>";
+		};
+		F65C5ABCE6E89D9094360ABE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				021FF31381A4D9EAF56D7B4C /* Pods-container-segue.debug.xcconfig */,
+				91E36F323B30AEFF4B3C7889 /* Pods-container-segue.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBE1C8761CA4B71F000A9B15 /* container-segue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE1C8891CA4B71F000A9B15 /* Build configuration list for PBXNativeTarget "container-segue" */;
+			buildPhases = (
+				1CB211A22D70B644771425F0 /* Check Pods Manifest.lock */,
+				EBE1C8731CA4B71F000A9B15 /* Sources */,
+				EBE1C8741CA4B71F000A9B15 /* Frameworks */,
+				EBE1C8751CA4B71F000A9B15 /* Resources */,
+				D8589F4597088F9C020A7747 /* Embed Pods Frameworks */,
+				A83A25256F006EFFB8ABBC0A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "container-segue";
+			productName = "container-segue";
+			productReference = EBE1C8771CA4B71F000A9B15 /* container-segue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBE1C86F1CA4B71F000A9B15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mengying Feng";
+				TargetAttributes = {
+					EBE1C8761CA4B71F000A9B15 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = EBE1C8721CA4B71F000A9B15 /* Build configuration list for PBXProject "container-segue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBE1C86E1CA4B71F000A9B15;
+			productRefGroup = EBE1C8781CA4B71F000A9B15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBE1C8761CA4B71F000A9B15 /* container-segue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBE1C8751CA4B71F000A9B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE1C8851CA4B71F000A9B15 /* LaunchScreen.storyboard in Resources */,
+				EBE1C8821CA4B71F000A9B15 /* Assets.xcassets in Resources */,
+				EBE1C8801CA4B71F000A9B15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CB211A22D70B644771425F0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A83A25256F006EFFB8ABBC0A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-container-segue/Pods-container-segue-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8589F4597088F9C020A7747 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-container-segue/Pods-container-segue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBE1C8731CA4B71F000A9B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE1C87D1CA4B71F000A9B15 /* CustomTransitionViewController.swift in Sources */,
+				EBE1C89A1CA4EC0B000A9B15 /* PresentingAnimator.swift in Sources */,
+				EBE1C89C1CA555CF000A9B15 /* DismissingAnimator.swift in Sources */,
+				EBE1C88F1CA4E938000A9B15 /* ModalViewController.swift in Sources */,
+				EBE1C89E1CA57650000A9B15 /* UseXibViewController.swift in Sources */,
+				EBE1C87B1CA4B71F000A9B15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBE1C87E1CA4B71F000A9B15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBE1C87F1CA4B71F000A9B15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBE1C8831CA4B71F000A9B15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBE1C8841CA4B71F000A9B15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBE1C8871CA4B71F000A9B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBE1C8881CA4B71F000A9B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBE1C88A1CA4B71F000A9B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 021FF31381A4D9EAF56D7B4C /* Pods-container-segue.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "container-segue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emilyvon.container-segue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "container-segue/container-segue-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBE1C88B1CA4B71F000A9B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E36F323B30AEFF4B3C7889 /* Pods-container-segue.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "container-segue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emilyvon.container-segue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "container-segue/container-segue-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBE1C8721CA4B71F000A9B15 /* Build configuration list for PBXProject "container-segue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE1C8871CA4B71F000A9B15 /* Debug */,
+				EBE1C8881CA4B71F000A9B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE1C8891CA4B71F000A9B15 /* Build configuration list for PBXNativeTarget "container-segue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE1C88A1CA4B71F000A9B15 /* Debug */,
+				EBE1C88B1CA4B71F000A9B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBE1C86F1CA4B71F000A9B15 /* Project object */;
+}
